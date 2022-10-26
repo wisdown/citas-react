@@ -7,12 +7,14 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Header/>
-      <Formulario/>
-      <ListadoPacientes/>
+    <div className='conatiner mx-auto mt-20'>
+      <Header />
+      <div className='mt-12 md:flex'>
+        <Formulario />
+        <ListadoPacientes />
+      </div>
 
-    </>
+    </div>
   )
 }
 
